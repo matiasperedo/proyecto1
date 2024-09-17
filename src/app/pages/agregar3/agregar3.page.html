@@ -1,0 +1,48 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Cursos
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" class="content-background">
+  
+  <img src="../../../assets/img/duocuc.png" class="esquina-icono" alt="Icono Duocuc">
+
+  <ion-list>
+    <ion-item>
+      <ion-label>
+        <h2>Calidad de Software</h2>
+        <ion-progress-bar value="0.75"></ion-progress-bar>
+      </ion-label>
+      <ion-note slot="end">75%</ion-note>
+    </ion-item>
+    <ion-item>
+      <ion-label>
+        <h2>Estadística Descriptiva</h2>
+        <ion-progress-bar value="0.60"></ion-progress-bar>
+      </ion-label>
+      <ion-note slot="end">60%</ion-note>
+    </ion-item>
+    <ion-item>
+      <ion-label>
+        <h2>Desarrollo Aplicación Móvil</h2>
+        <ion-progress-bar value="0.85"></ion-progress-bar>
+      </ion-label>
+      <ion-note slot="end">85%</ion-note>
+    </ion-item>
+    <ion-item>
+      <ion-label>
+        <h2>Ética</h2>
+        <ion-progress-bar value="0.50"></ion-progress-bar>
+      </ion-label>
+      <ion-note slot="end">50%</ion-note>
+    </ion-item>
+  </ion-list>
+
+  
+  <div class="button-container">
+    <ion-button expand="full" (click)="volver()">Volver</ion-button>
+  </div>
+</ion-content>

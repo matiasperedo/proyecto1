@@ -1,0 +1,22 @@
+ion-content {
+    --background: #ffff00; /* Fondo amarillo */
+  }
+  
+  .message-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  h2 {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  ion-button {
+    --background: #007bff;
+    --color: #fff;
+  }
+  
+  ion-button:hover {
+    --background: #0056b3;
+  }

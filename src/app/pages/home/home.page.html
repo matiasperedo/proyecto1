@@ -1,0 +1,31 @@
+<ion-header [translucent]="true">
+  <ion-title>
+    <br>
+    <br>
+    Bienvenido 
+    <br>
+    
+    {{usuario}}
+  </ion-title>
+  
+  
+
+
+</ion-header>
+<br>
+<br>
+
+<ion-content [fullscreen]="true" class="content-background">
+<br>
+<br>
+
+<img src="../../../assets/img/duocuc.png" class="esquina-icono" alt="Icono Duocuc">
+
+
+<div class="botones-container">
+
+  <ion-button (click)="codigoqr()" class="accion-boton">Generar Codigo QR</ion-button>
+  <ion-button (click)="volver()" class="accion-boton">Volver al Inicio</ion-button>
+  
+</div>
+</ion-content>

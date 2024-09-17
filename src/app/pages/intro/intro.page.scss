@@ -1,0 +1,13 @@
+.imagen{
+    margin-top: 25px;
+    text-align: center;
+
+}
+.imagen img{
+    border:solid 1px red;
+    border-radius: 15px 15px 15px 15px;
+}
+
+ion-content{
+    --background: blue;
+}

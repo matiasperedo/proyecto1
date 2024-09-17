@@ -1,0 +1,31 @@
+<ion-header [translucent]="true">
+    <ion-title>
+      <br>
+      <br>
+      Bienvenido 
+      <br>
+      
+      {{usuario1}}
+    </ion-title>
+    
+    
+
+ 
+</ion-header>
+<br>
+<br>
+
+<ion-content [fullscreen]="true" class="content-background">
+  <br>
+  <br>
+  
+  <img src="../../../assets/img/duocuc.png" class="esquina-icono" alt="Icono Duocuc">
+  
+  
+  <div class="botones-container">
+    <ion-button (click)="activarCamaraFunction()" class="accion-boton">Asistencia en linea</ion-button>
+    <ion-button (click)="cursos()" class="accion-boton">Cursos</ion-button>
+    <ion-button (click)="volverInicio()" class="accion-boton">Volver al Inicio</ion-button>
+    
+  </div>
+</ion-content>
